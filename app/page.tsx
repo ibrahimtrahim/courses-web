@@ -1,14 +1,11 @@
-import Container from '@mui/material/Container'
+import Hero from '@/components/home/Hero'
 import Box from '@mui/material/Box'
 import React from 'react'
-import Nav from '@/components/Nav'
 
 const Home = () => {
   return (
-    <Box sx={{display:'flex', justifyContent:'center'}}>
-      <Container maxWidth='lg'>
-        <Nav />
-      </Container>
+    <Box>
+      <Hero />
     </Box>
   )
 }
